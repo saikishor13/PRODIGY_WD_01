@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Interactive Navigation</title>
+
+    <script src="form.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+       <!-- <img src="j2.png" alt=""> -->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+         <!--   <h1 class="headings">I AM <br> SAI KISHOR</h1>  -->
+            <button class="btn">
+                <a href="#about">About Me</a>
+            </button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+            <div id="intro">
+        <!--        <h2>SAI KISHOR</h2>
+                <P><br>I'm sai and I am from kollam, Kerala. 
+                    I'm currently persuing Engineering in Computer Science stream at Sree Buddha College of Engineering, Pattoor.<br><br>
+                    <ul><h3>
+                    <li><b>BIRTHDAY :</b> 01 June 2002 </li>
+                    <br>
+                    <li><b>AGE :</b> 18</li>
+                    <br>
+                    <li><b>CITY :</b>Kollam ,Kerala</li>
+                    <br>
+                    <li><b>COUNTRY :</b> India</li>
+                    <br>
+                    <li><b>EMAIL :</b> saikishore657@gmail.com</li>
+                    <br>
+                    <li><b>PHONE NUMBER :</b> 6282972537</li>
+                    <br>
+                    <li><b>DEGREE :</b> Persuing UG</li></h3>
+                </ul>
+                </P>
+                -->
+            </div>
+    </section>
+
+    <section id="blog">
+        <h1 class="headings">BLOG</h1>
+        
+        <div class="gallery">
+                <!--
+            <img src="html.png" alt="">
+            <img src="cpp.jpg" alt="">
+            <img src="c.png" alt="">
+            <img src="py.png" alt="">
+            <img src="css1.png" alt="">
+            <img src="js.png" alt="">
+            -->
+        </div>
+        <!--<h1 class="headings">INTERESTS</h1>-->
+        <div class="gallery">
+                <!--
+            <img src="flutter.png" alt="">
+            <img src="ml.jpg" alt="">
+            <img src="ggl.png" alt="">
+            <img src="nodejs.png" alt="">
+            -->
+        </div>
+        
+    </section>
+
+    <section id="education">
+        <h1 class="headings">EDUCATION</h1>
+        <div class="row">
+                <!--
+            <div class="box">
+                <img src="grad1.png" alt="">
+                <h10 class="headings">High School</h10>
+                <p><b>2016-18</b><br>
+                    <br>St.Charles Borromeo convent school,Kollam, Kerala, IN
+                    <br>Completed High School education from St Charles School 
+                        under ICSE with 84.2%
+                </p>
+            </div>
+            <div class="box">
+                <img src="grad1.png" alt="">
+                <h10 class="headings">Higher Secondary <br>School</h10>
+                <p><b>2018-20</b><br>
+                    <br>S N H S S CHithara , Kollam, Kerala, IN
+                    <br>Completed Higher secondary education from S N H S S chithara
+                        under state with 87.2%
+                </p>
+            </div>
+            <div class="box">
+                <img src="grad1.png" alt="">
+                <h10 class="headings">Bachelor of Technology in Computer Science</h10>
+                <p><b>2020-Present</b><br>
+                    <br>Sree Buddha College Of Engineering, Pattoor,Alappuzha,Kerala, IN
+                    <br>Currently Pursuing Under 2019 Scheme in A.P.J Abdul Kalam University
+                </p>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <!--
+        <h><b>NAME :</b></h>
+        <p>Sai Kishor</p>
+        <br>
+        <h><b>ADDRESS :</b></h>
+        <p>Sayees Cottage Kizhakkumbhagom Kollam , kerala </p>
+        <br>
+        <h><b>EMAIL :</b></h>
+        <p>saikishore657@gmail.com</p>
+        <br>
+        <h><b>PHONE NO. :</b></h>
+        <p>6282972537</p>
+        <br>
+        <div class="img">
+        <h><b>SOCIAL PROFILES :</b></h>
+        <P>
+            <a href="https://www.instagram.com/joannjo20/"><img src="ig.png" alt=""></a>
+        </P>
+        </div>
+        -->
+        
+        <form action="" class="form" onsubmit="Hello()">
+            <h2>MESSAGE ME </h2>
+            <input type="text" name="Name" class="input" placeholder="Enter your Name">
+            <input type="email" name="Email" class="input" placeholder="Enter your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
